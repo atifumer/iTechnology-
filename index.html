@@ -43,84 +43,115 @@
       </form>
     </div>
     <!-- footer -->
+
     <footer>
-      <div>
-        <span class="logo">iTechnology</span>
-      </div>
+      <div class="shyadd">
+        <div>
+          <span class="logo">iTechnology</span>
+        </div>
 
-      <div class="row">
-        <div class="col-3">
-          <div class="link-cat" onclick="footerToggle(this)">
-            <span class="footer-toggle"></span>
-            <span class="footer-cat">Solution</span>
+        <div class="row">
+          <div class="col-3">
+            <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Solution</span>
+            </div>
+            <ul class="footer-cat-links">
+              <li>
+                <a href=""><span>Interprise App Development</span></a>
+              </li>
+              <li>
+                <a href=""><span>Android App Development</span></a>
+              </li>
+              <li>
+                <a href=""><span>ios App Development</span></a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-cat-links">
-            <li>
-              <a href=""><span>Interprise App Development</span></a>
-            </li>
-            <li>
-              <a href=""><span>Android App Development</span></a>
-            </li>
-            <li>
-              <a href=""><span>ios App Development</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3">
-          <div class="link-cat" onclick="footerToggle(this)">
-            <span class="footer-toggle"></span>
-            <span class="footer-cat">Industries</span>
+          <div class="col-3">
+            <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Industries</span>
+            </div>
+            <ul class="footer-cat-links">
+              <li>
+                <a href=""><span>Healthcare</span></a>
+              </li>
+              <li>
+                <a href=""><span>Sports</span></a>
+              </li>
+              <li>
+                <a href=""><span>ECommerce</span></a>
+              </li>
+              <li>
+                <a href=""><span>Construction</span></a>
+              </li>
+              <li>
+                <a href=""><span>Club</span></a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-cat-links">
-            <li>
-              <a href=""><span>Healthcare</span></a>
-            </li>
-            <li>
-              <a href=""><span>Sports</span></a>
-            </li>
-            <li>
-              <a href=""><span>ECommerce</span></a>
-            </li>
-            <li>
-              <a href=""><span>Construction</span></a>
-            </li>
-            <li>
-              <a href=""><span>Club</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3">
-          <div class="link-cat" onclick="footerToggle(this)">
-            <span class="footer-toggle"></span>
-            <span class="footer-cat">Quick Links</span>
+          <div class="col-3">
+            <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Quick Links</span>
+            </div>
+            <ul class="footer-cat-links">
+              <li>
+                <a href=""><span>Reviews</span></a>
+              </li>
+              <li>
+                <a href=""><span>Terms & Condition</span></a>
+              </li>
+              <li>
+                <a href=""><span>Disclaimer</span></a>
+              </li>
+              <li>
+                <a href=""><span>Site Map</span></a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-cat-links">
-            <li>
-              <a href=""><span>Reviews</span></a>
-            </li>
-            <li>
-              <a href=""><span>Terms & Condition</span></a>
-            </li>
-            <li>
-              <a href=""><span>Disclaimer</span></a>
-            </li>
-            <li>
-              <a href=""><span>Site Map</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3" id="newsletter">
-          <span>Stay Connected</span>
-          <form id="subscribe">
-            <input
-              type="email"
-              id="subscriber-email"
-              placeholder="Enter Email Address"
-            />
-            <input type="submit" value="Subscribe" id="btn-scribe" />
-          </form>
+          <div class="col-3" id="newsletter">
+            <span>Stay Connected</span>
+            <form id="subscribe">
+              <input
+                type="email"
+                id="subscriber-email"
+                placeholder="Enter Email Address"
+              />
+              <input type="submit" value="Subscribe" id="btn-scribe" />
+            </form>
 
-          <div class="social-links social-2">
+            <div class="social-links social-2">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-tumblr"></i></a>
+              <a href=""><i class="fab fa-reddit-alien"></i></a>
+            </div>
+
+            <div id="address">
+              <span>Office Location</span>
+              <ul>
+                <li>
+                  <i class="far fa-building"></i>
+                  <div>
+                    PAKISTAN-KCI<br />
+                    Office 9B, Sky High Tower.
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-gopuram"></i>
+                  <div>
+                    Los Angeles<br />
+                    New A Ring Road, Los Angeles
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links social-1 col-6">
             <a href=""><i class="fab fa-facebook-f"></i></a>
             <a href=""><i class="fab fa-twitter"></i></a>
             <a href=""><i class="fab fa-linkedin-in"></i></a>
@@ -128,45 +159,16 @@
             <a href=""><i class="fab fa-tumblr"></i></a>
             <a href=""><i class="fab fa-reddit-alien"></i></a>
           </div>
-
-          <div id="address">
-            <span>Office Location</span>
-            <ul>
-              <li>
-                <i class="far fa-building"></i>
-                <div>
-                  PAKISTAN-KCI<br />
-                  Office 9B, Sky High Tower.
-                </div>
-              </li>
-              <li>
-                <i class="fas fa-gopuram"></i>
-                <div>
-                  Los Angeles<br />
-                  New A Ring Road, Los Angeles
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
-        <div class="social-links social-1 col-6">
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-linkedin-in"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-tumblr"></i></a>
-          <a href=""><i class="fab fa-reddit-alien"></i></a>
+        <div id="copyright">&copy; All Rights Reserved-2022</div>
+        <div id="owner">
+          <span>
+            Designed by
+            <a href="https://www.codingtuting.com">Atifumer.Com</a>
+          </span>
         </div>
-      </div>
-      <div id="copyright">&copy; All Rights Reserved-2022</div>
-      <div id="owner">
-        <span>
-          Designed by
-          <a href="https://www.codingtuting.com">Atifumer.Com</a>
-        </span>
       </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="StyleiTechFooter.js"></script>
 

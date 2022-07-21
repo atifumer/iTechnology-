@@ -88,7 +88,7 @@ body {
 }
 /* footer css */
 footer {
-  background-color: #0367fd;
+  background-color: #070a0d;
   padding: 3em 4em 2em;
   margin-top: 3em;
 }
@@ -453,4 +453,19 @@ input#subscriber-email::placeholder {
   .social-links {
     padding: 1.5em;
   }
+}
+.shyadd {
+  width: 100%;
+  padding: 1%;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 0 0 #0367fd, 20px 0 0 #000, 30px 0 0 #0367fd,
+    0 10px 0 #0367fd, 10px 10px 0 #000, 20px 10px 0 #0367fd, 30px 10px 0 #000,
+    0 20px 0 #000, 10px 20px 0 #0367fd 20px 20px 0 #000, 30px 20px 0 #0367fd,
+    0 30px 0 #0367fd, 10px 30px 0 #000, 20px 30px 0 #0367fd, 30px 30px 0 #000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 10px 0 0 #0367fd, 20px 0 0 #000, 30px 0 0 #0367fd,
+    0 10px 0 #0367fd, 10px 10px 0 #000, 20px 10px 0 #0367fd, 30px 10px 0 #000,
+    0 20px 0 #000, 10px 20px 0#0367fd, 20px 20px 0 #000, 30px 20px 0#0367fd,
+    0 30px 0 #0367fd, 10px 30px 0 #000, 20px 30px 0 #0367fd, 30px 30px 0 #000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
